@@ -16,8 +16,8 @@ app.use(express.json());
 app.use(express.static(__dirname + "/Develop/public"))
 
 // Routes
-require("./routes/apiroute")(app)
-require("./routes/htmlroute")(app)
+require("./Develop/routes/apiroute")(app)
+require("./Develop/routes/htmlroute")(app)
 
 
 
