@@ -15,20 +15,26 @@ module.exports = (app) => {
             console.log(data)
             res.json(data)
         })
-        
-
     });
 
 
     app.post('/api/notes', (req, res) => {
-        dbjson.push(req.body)
+        fs.readFile(path.join(__dirname,"../db/db.json"),"utf8",(err,data)=> {
+            if (err) throw (err)
+            else (console.log (data))
+            data = JSON.parse(data)
+            console.log(data)
+            data.push(req.body)
+            console.log(data)
 
+            fs.writeFile(path.join(__dirname,"../db/db.json"),JSON.stringify(data),(err) => {
+                if (err) throw (err)
+                res.json(data)
+            })
+        })
 
-        //how to get post route to render a page//
-
-        //data is saving but not rendering//
     });
-    // work on this with res. 
+
 }
 
 // app.delete("/api/notes/:id", (req, res) => {
@@ -36,5 +42,10 @@ module.exports = (app) => {
 //     console.log (deleteApp)
 
 // })
+
+// ADD NEW NOTE WITH ID IN POST. THEN CALL AND DELETE IN DBJSON
+
+//loop thru the data. and find what to remove. 
+
 
 //     //// FIGURE OUT HOW TO DO BONUS
