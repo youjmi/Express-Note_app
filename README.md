@@ -41,7 +41,19 @@ You may access the deployed link : https://fast-woodland-38422.herokuapp.com/
 
  ## Screenshots
 
+The first picture is to present that the server.js runs with no errors
 
+![EE1](https://user-images.githubusercontent.com/73494581/106953545-82f9c500-6700-11eb-9cf2-d15d20afd123.png)
+
+<img width="1409" alt="EE2" src="https://user-images.githubusercontent.com/73494581/106953547-82f9c500-6700-11eb-9da4-2c66dcc0b06a.png">
+
+<img width="1406" alt="EE3" src="https://user-images.githubusercontent.com/73494581/106953548-83925b80-6700-11eb-8bab-4c2419bfa3cb.png">
+
+<img width="1396" alt="EE4" src="https://user-images.githubusercontent.com/73494581/106953550-83925b80-6700-11eb-9b28-8a7aad58bd31.png">
+
+<img width="1393" alt="EE5" src="https://user-images.githubusercontent.com/73494581/106953551-83925b80-6700-11eb-8c62-96bc81866be5.png">
+
+<img width="1410" alt="EE6" src="https://user-images.githubusercontent.com/73494581/106953553-83925b80-6700-11eb-8a3f-c829a9d1cfb8.png">
 
 
 ## Contribution 
